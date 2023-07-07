@@ -53,7 +53,7 @@ Desde postman puedes probar los siguentes endpoints los cuales se solicitan y mu
   <li> http://localhost:3000/api/todo/'id'</li>
   <li> http://localhost:3000/api/todo/delete/'id'</li>
   <li> http://localhost:3000/api/todo/update/'id'</li>
-  
+  <p>
   {
     "task" : "Limpiar libros",
     "task_responsable" : "Pepito Perez",
@@ -61,7 +61,7 @@ Desde postman puedes probar los siguentes endpoints los cuales se solicitan y mu
     "status" : "64a600bda2472a22f78cf5b4",
     "update" : "Comprar plumón"
   }
-  
+  </p>
 </ul></p>
 
 <p>
