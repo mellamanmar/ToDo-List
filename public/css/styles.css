@@ -35,19 +35,31 @@ form {
   position: absolute;
   top: 50%;
   left: 50%;
+  bottom: 50%;
   transform: translate(-50%, -50%);
 }
 button {
-    margin: 0;
-    background: #ea534d;
-    height: 50px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+  font-family:'Courier New', Courier, monospace;
+  margin: 0;
+  background: #ea534d;
+  height: 50px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
-input[type="text"]::-webkit-input-placeholder {
+input[type='text']::-webkit-input-placeholder{
   text-align: center;
-  color: #1a8093;
+  color: #1A8093;
   font-size: 15px;
   opacity: 0.5;
+}
+input[type='date']::-webkit-input-placeholder{
+  text-align: center;
+  color: #1A8093;
+  font-size: 15px;
+  opacity: 0.5;
+}
+label {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 19px;
 }

@@ -13,7 +13,18 @@
 
     <!-- action for redirect to task created -->
     <form action="/api/todo/create" method="post" autocomplete="off">
-      <input type="text" placeholder="Add tasks" name="ToDoTask" required>
+      <p>
+        <label for="name">To do task</label>
+        <input type="text" placeholder="Add tasks" name="ToDoTask" required></input>
+      </p>
+      <p>
+        <label for="name">Task Responsable</label>
+        <input type="text" placeholder="Add task responsable" name="TaskResponsable" required></input>
+      </p>
+      <p>
+        <label for="name">Deadline</label>
+        <input type="date" placeholder="Deadline" name="Deadline" required></input>
+      </p>
       <button type="submit"> Add </button>
     </form>
 

@@ -22,8 +22,11 @@ app.use ('/api/todo', toDoRouter)
 app.use ('/api/responsable', responsableRouter)
 app.use ('/api/status', statusRouter)
 
+// app.get ('/', (req,res) =>{
+//   res.render(toDoRouter)
+// })
 
-app.get('/api/todo', (req, res) => {
+app.get('/', (req, res) => {
   res.render('index.ejs')
 })
 
