@@ -38,31 +38,29 @@ npm start nodemon ó
 node indes.js</li>
 
 Desde postman puedes probar los siguentes endpoints los cuales se solicitan y muestan en formato json
-<p><ul> <h4>Tasks</h4>
-  <li> http://localhost:3000/api/todo/ </li>
-  <li> http://localhost:3000/api/todo/create con la siguiente estructura en json </li>
-  <p>
-{
+<p>
+  <ul> <h4>Tasks</h4>
+    <li> http://localhost:3000/api/todo/ </li>
+    <li> http://localhost:3000/api/todo/create con la siguiente estructura en json </li>
+    {
     "task" : "Asignarle género a los libros",
     "task_responsable" : "Pepito Perez",
     "deadline" : "09-30-2023",
     "status" : "64a600bda2472a22f78cf5b4",
     "update" : "Falta enumerar todos los libros"
-}
-</p>
-  <li> http://localhost:3000/api/todo/'id'</li>
-  <li> http://localhost:3000/api/todo/delete/'id'</li>
-  <li> http://localhost:3000/api/todo/update/'id'</li>
-  <p>
-  {
+    }
+    <li> http://localhost:3000/api/todo/'id'</li>
+    <li> http://localhost:3000/api/todo/delete/'id'</li>
+    <li> http://localhost:3000/api/todo/update/'id'</li>
+    {
     "task" : "Limpiar libros",
     "task_responsable" : "Pepito Perez",
     "deadline" : "07-30-2023",
     "status" : "64a600bda2472a22f78cf5b4",
     "update" : "Comprar plumón"
-  }
-  </p>
-</ul></p>
+    }
+  </ul>
+</p>
 
 <p>
   <ul> <h4>Status</h4> (immportante mencionar que sólo hay tres estatus disponibles)
