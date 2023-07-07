@@ -82,7 +82,7 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
         }
 
         
-    </ul>
+  </ul>
   </p>
   <p>
     <ul> <h4>Task Responsable</h4>
@@ -105,7 +105,7 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
         }
 
         
-    </ul>
+  </ul>
   </p>
 
   <li>Puedes acceder a la aplicación en su parte front end en http://localhost:3000/</li>
