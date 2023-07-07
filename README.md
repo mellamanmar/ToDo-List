@@ -41,6 +41,9 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
     <p>
       <ul> <h4>Tasks</h4>
         <li> http://localhost:3000/api/todo/ </li>
+        <li> http://localhost:3000/api/todo/'id'</li>
+        <li> http://localhost:3000/api/todo/delete/'id'</li>
+        <li> http://localhost:3000/api/todo/update/'id'</li>
         <li> http://localhost:3000/api/todo/create con la siguiente estructura en json </li>
         
           
@@ -53,9 +56,7 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
           }
         
         
-    <li> http://localhost:3000/api/todo/'id'</li>
-    <li> http://localhost:3000/api/todo/delete/'id'</li>
-    <li> http://localhost:3000/api/todo/update/'id'</li>
+    
         
           
         {
