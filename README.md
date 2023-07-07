@@ -67,8 +67,8 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
           }
         
         
-      </ul>
-    </p>
+  </ul>
+  </p>
     
   <p>
     <ul> <h4>Status</h4> (importante mencionar que sólo hay tres estatus disponibles)
