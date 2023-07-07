@@ -42,23 +42,27 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
       <ul> <h4>Tasks</h4>
         <li> http://localhost:3000/api/todo/ </li>
         <li> http://localhost:3000/api/todo/create con la siguiente estructura en json </li>
-          {
+        ```  
+        {
           "task" : "Asignarle género a los libros",
           "task_responsable" : "Pepito Perez",
           "deadline" : "09-30-2023",
           "status" : "64a600bda2472a22f78cf5b4",
           "update" : "Falta enumerar todos los libros"
           }
+        ```
         <li> http://localhost:3000/api/todo/'id'</li>
         <li> http://localhost:3000/api/todo/delete/'id'</li>
         <li> http://localhost:3000/api/todo/update/'id'</li>
-          {
+        ```  
+        {
           "task" : "Limpiar libros",
           "task_responsable" : "Pepito Perez",
           "deadline" : "07-30-2023",
           "status" : "64a600bda2472a22f78cf5b4",
           "update" : "Comprar plumón"
           }
+        ```
       </ul>
     </p>
     
