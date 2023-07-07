@@ -42,7 +42,7 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
       <ul> <h4>Tasks</h4>
         <li> http://localhost:3000/api/todo/ </li>
         <li> http://localhost:3000/api/todo/create con la siguiente estructura en json </li>
-          ```
+          <p>
           {
           "task" : "Asignarle género a los libros",
           "task_responsable" : "Pepito Perez",
@@ -50,11 +50,11 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
           "status" : "64a600bda2472a22f78cf5b4",
           "update" : "Falta enumerar todos los libros"
           }
-          ```
+          </p>
         <li> http://localhost:3000/api/todo/'id'</li>
         <li> http://localhost:3000/api/todo/delete/'id'</li>
         <li> http://localhost:3000/api/todo/update/'id'</li>
-          ```
+          <p>
           {
           "task" : "Limpiar libros",
           "task_responsable" : "Pepito Perez",
@@ -62,7 +62,7 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
           "status" : "64a600bda2472a22f78cf5b4",
           "update" : "Comprar plumón"
           }
-          ```
+          </p>
       </ul>
     </p>
     
@@ -71,30 +71,30 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
       <li> http://localhost:3000/api/status/</li>
       <li>http://localhost:3000/api/status/'id'</li>
       <li>http://localhost:3000/api/status/update/'id'</li>
-        ```
+        <p>
         {
         "status" : "pending"
         }
-        ```
+        </p>
     </ul>
   </p>
   <p>
     <ul> <h4>Task Responsable</h4>
       <li> http://localhost:3000/api/responsable/create</li>
-        ```
+        <p>
         {
         "task_responsable" : "Mariano Gomez"
         }
-        ```
+        </p>
       <li>http://localhost:3000/api/responsable/</li>
       <li>http://localhost:3000/api/responsable/'id'</li>
       <li>http://localhost:3000/api/responsable/delete/'id'</li>
       <li>http://localhost:3000/api/responsable/update/'id'</li>
-        ```
+        <p>
         {
         "task_responsable" : "Gonzzalo Gomez"
         }
-        ```
+        </p>
     </ul>
   </p>
 
