@@ -10,10 +10,10 @@ Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) para u
 <h2> Funcionalidades </h2>
 <ul>
 <li>Obtener todas las tareas, estatus y responsables por las tareas.</li>
-<li>Obtener las tareas, estatus y responsables por las tareas por su ID.</li>
+<li>Obtener las tareas, estatus y responsables de las tareas por su ID.</li>
 <li>Crear y/o agregar una tarea o nuevo responsable.</li>
-<li>Actualizar información una tarea, estatus o persona responsable según se requiera.</li>
-<li>Eliminar tareas, estatus y responsables de las tareas por su ID.</li>
+<li>Actualizar información de una tarea, estatus o persona responsable según se requiera.</li>
+<li>Eliminar tareas y responsables de las tareas por su ID.</li>
 </ul>
 
 <h2> Tecnologías utilizadas </h2>
